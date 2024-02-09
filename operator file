@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a=2,b=3;
+    cout<<"bitwise operator:"<<endl;
+    cout<<"(a&b) :"<< (a&b) <<endl;
+    cout<<"(a&b) :"<< (a|b) <<endl;
+    cout<<"~a :"<< ~a <<endl;
+    cout<<"(a^b) :"<<(a^b)<<endl;
+    cout<<"right shift:"<<(17>>1)<<endl;
+    cout<<"right shift:"<<(17>>2)<<endl;
+    cout<<"left shift:"<<(19<<1)<<endl;
+    cout<<"left shift:"<<(21<<2)<<endl;
+    return 0;
+}
